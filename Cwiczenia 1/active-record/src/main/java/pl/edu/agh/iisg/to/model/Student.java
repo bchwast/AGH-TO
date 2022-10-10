@@ -78,6 +78,8 @@ public class Student {
 
     public Map<Course, Float> createReport() {
         // TODO additional task
+        
+
         return Collections.emptyMap();
     }
 
