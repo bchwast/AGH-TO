@@ -41,7 +41,7 @@ public class PhotoSerializer {
     private void createLibraryDirectory() throws IOException {
         File photoLibraryDir = new File(photoLibraryPath);
         if (!photoLibraryDir.exists()) {
-            photoLibraryDir.mkdirs();
+            photoLibraryDir.mkdir();
         }
         if (!photoLibraryDir.isDirectory()) {
             throw new IOException("This is not valid photo library directory path or directory could not be created: " + photoLibraryPath);
